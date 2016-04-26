@@ -1,11 +1,6 @@
 #include <string>
 using namespace std;
-class CObjet{
-    public:
 
-    private:
-
-};
 
     class CPersonne{
     public:
