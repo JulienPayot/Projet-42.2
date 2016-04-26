@@ -1,0 +1,27 @@
+
+1)j'ai remarqué la presence de namespace dans certain .h
+Il faudrait les enlever car cela peut produire d'important bug
+( jamais de namespace dans un .h)
+
+2)Il faudrait aussi  mettre les paramètres non modifier en "const" dans les méthodes qui le nessecitent
+( plus propre et optimise le code a la compilation )
+
+3)Utiliser le pointeur "this" plutôt que de donner un nom different entre le paramètre et l'attribut, c'est plus propre et plus lisible 
+  Ex : dans CPersonne =>
+  
+   CPersonne::CPersonne(unsigned short vie=0,unsigned short force=0,unsigned short defense=0,string nom="sansNom"){
+        this->vie=vie; //à la place de vie=vie1; etc ...
+        this->force=force;
+        this->defense=defense;
+        this->nom=nom;
+    }
+    
+4)Toujours definir et implementer un destructeur à chaque class, même si il est vide.
+
+5)Essayer de nommer les attributs et autres méthodes en anglais ^^
+
+6)Si le jeu doit etre portable sur d'autre platforme ( android / linux / mac ... ) , lib non-crossplatform interdites :p
+(donc pas de windows.h par exemple)
+
+Voilà c'est a ce moment les petits remarque que j'ai a faire, bien sur ce n'est pas imposé xD Juste des petits conseils que j'ai acquis
+au fil de mes années de codage ^^
