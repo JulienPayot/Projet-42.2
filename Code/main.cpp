@@ -12,7 +12,7 @@ int main()
     CPersonne Bob(75,75,20,"Bob");
     Julien.affiche();
 
-    Julien.changementvie(Julien.degat(Bob.getforce()));
+    Julien.changementVie(Julien.degat(Bob.getForce()));
 
     Julien.affiche();
     _getch();
