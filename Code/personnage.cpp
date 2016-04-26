@@ -15,7 +15,7 @@ using namespace std;
 
         cout<<"\nNom="<<nom<<"\nvie="<<vie<<"\nforce="<<force<<"\ndefense="<<defense;
     }
-    bool CPersonne::changementvie (unsigned short vie1){
+    bool CPersonne::changementVie (unsigned short vie1){
         vie=vie-vie1;
         return estVivant; //après le changement de vie on vérifie si le joueur est mort ou non (renvoie 0 si mort)
     }
@@ -35,15 +35,15 @@ using namespace std;
         vie1=force1-defense;
         return vie1;
     }
-    unsigned short CPersonne::getvie(){
+    unsigned short CPersonne::getVie(){
         return vie;
     }
-    unsigned short CPersonne::getforce(){
+    unsigned short CPersonne::getForce(){
         return force;
     }
-    unsigned short CPersonne::getdefense(){
+    unsigned short CPersonne::getDefense(){
         return defense;
     }
-    string CPersonne::getnom(){
+    string CPersonne::getNom(){
         return nom;
     }
