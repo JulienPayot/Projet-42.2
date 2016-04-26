@@ -1,8 +1,8 @@
 
 /*======================================================================
 Classe IsoMap pour le projet 42.2
-Actuelement : Gère le  chargement de la map depuis un fichier.
-Objectif : Gèrer la map et les textures des chunks pour le moteur graphique 2D isometrique
+Actuelement : GÃ¨re le  chargement de la map depuis un fichier.
+Objectif : GÃ¨rer la map et les textures des chunks pour le moteur graphique 2D isometrique
 
 DEV : SOTON 'Asphox' Dylan
 DATE : 26/04/2016
@@ -23,7 +23,7 @@ CIsoMap::~CIsoMap(){  //destructeur
     delete _mapFile;
 }
 
-bool CIsoMap::load(const std::string mapPath)  //chargement de la map depuis le fichier vers le tableau de chunk{
+bool CIsoMap::load(const std::string mapPath){  //chargement de la map depuis le fichier vers le tableau de chunk
 
     _errorLog = "";
 
@@ -65,7 +65,7 @@ bool CIsoMap::load(const std::string mapPath)  //chargement de la map depuis le 
         }
     }
     delete _mapFile; //on detruit l'objet pointer par _mapFile pour liberer de la memoire maintenant inutile
-    _mapFile = nullptr; //et on met le pointeur a "nullptr" par securité
+    _mapFile = nullptr; //et on met le pointeur a "nullptr" par securitÃ©
     return true;
 }
 
