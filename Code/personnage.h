@@ -10,9 +10,9 @@ class CObjet{
     class CPersonne{
     public:
         CPersonne(unsigned short vie1,unsigned short force1,unsigned short defense1,string nom1);       //constructeur
-        void affiche(void);                                                                 //récupère les attribut de CPersonne
+        void affiche(void);                                                                 //rÃ©cupÃ¨re les attribut de CPersonne
         bool changementvie (unsigned short vie1);                                           //change la vie de CPersonne, si <0 renvoie 1 car mort
-        unsigned short degat (unsigned short force1);                                       //calcul des dégats : force ennemie-defense=vie perdu
+        unsigned short degat (unsigned short force1);                                       //calcul des dÃ©gats : force ennemie-defense=vie perdu
         unsigned short getvie();
         unsigned short getforce();
         unsigned short getdefense();
