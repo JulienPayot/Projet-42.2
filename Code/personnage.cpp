@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include <conio.h>
 #include <string>
-#include "Classe.h"
+#include "personnage.h"
 using namespace std;
 
     CPersonne::CPersonne(unsigned short vie1=0,unsigned short force1=0,unsigned short defense1=0,string nom1="sansNom"){
