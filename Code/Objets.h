@@ -2,7 +2,7 @@
 using namespace std;
 #include
 
-class CObjet{
+class CObjets{
     public:
 
     private:
