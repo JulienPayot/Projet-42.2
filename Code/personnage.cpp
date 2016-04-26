@@ -17,7 +17,7 @@ using namespace std;
     }
     bool CPersonne::changementvie (unsigned short vie1){
         vie=vie-vie1;
-        return 0;
+        return estVivant; //après le changement de vie on vérifie si le joueur est mort ou non (renvoie 0 si mort)
     }
     bool CPersonne::estVivant(){
         if (vie > 0) //Plus de 0 de vie 
