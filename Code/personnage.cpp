@@ -28,9 +28,8 @@ using namespace std;
         {
             return false; 
         }
-}
     }
-    }
+    
     unsigned short CPersonne::degat (unsigned short force1){
         unsigned short vie1=0;
         vie1=force1-defense;
