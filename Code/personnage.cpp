@@ -19,6 +19,18 @@ using namespace std;
         vie=vie-vie1;
         return 0;
     }
+    bool CPersonne::estVivant(){
+        if (vie > 0) //Plus de 0 de vie 
+        {
+            return true; 
+        }
+        else
+        {
+            return false; 
+        }
+}
+    }
+    }
     unsigned short CPersonne::degat (unsigned short force1){
         unsigned short vie1=0;
         vie1=force1-defense;
