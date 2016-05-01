@@ -1,21 +1,10 @@
-#include <iostream>
-#include <Windows.h>
-#include <conio.h>
-#include <string>
-#include "Classe.h"
-
-using namespace std;
+#include "Engine.h"
 
 int main()
 {
-    CPersonne Julien(100,100,25,"Julien");
-    CPersonne Bob(75,75,20,"Bob");
-    Julien.affiche();
 
-    Julien.changementVie(Julien.degat(Bob.getForce()));
+  Engine engine;
+  engine.run();
 
-    Julien.affiche();
-    _getch();
-	return 0;
+    return 0;
 }
-
