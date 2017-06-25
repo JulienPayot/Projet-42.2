@@ -1,51 +1,45 @@
-#include <iostream>
+#include <stdlib.h>
 #include <allegro5/allegro.h>
-#include <allegro5/allegro_primitives.h>
 #include <allegro5/allegro_native_dialog.h>
 
-using namespace std;
-
-#define WIDTH   640
-#define HEIGHT  480
-
-int main(int argc, char **argv)
+// fonction contrôle d'erreur
+void erreur(const char*txt)
 {
-    srand(time(NULL));
+    ALLEGRO_DISPLAY*d;
+    d=al_is_system_installed()?al_get_current_display():NULL;
+    al_show_native_message_box(d,"ERREUR",txt,NULL,NULL,0);
+    exit(EXIT_FAILURE);
+}
+/*************************************************************
+*************************************************************/
+int main()
+{
+    // fenetre
+    ALLEGRO_DoISPLAY*display;
 
-    ALLEGRO_DISPLAY *display = NULL;
-    ALLEGRO_EVENT_QUEUE *events = NULL;
+    // init allegro
+    if(!al_init())
+        erreur("al_init()");
 
-    if(!al_init()) {
-        cerr << "fallo al iniciar allegro!" << endl;
-        return -1;
-    }
+    // creation de la fentre
+    display=al_create_display(800,600);
+    if(!display)
+        erreur("creation display");
 
-    al_install_keyboard();
+    nom fenetre
+    al_set_window_title( display, "Projet42_2");
 
-    al_set_new_display_option(ALLEGRO_SINGLE_BUFFER, 1, ALLEGRO_REQUIRE);
-    al_set_new_display_flags(ALLEGRO_WINDOWED);
-    display = al_create_display(WIDTH, HEIGHT);
-    if(!display) {
-        cerr << "fallo al crear el display!" << endl;;
-        return -1;
-    }
-
-    al_init_primitives_addon();
-
-    events = al_create_event_queue();
-    al_register_event_source(events, al_get_keyboard_event_source());
+    // couleur fentre
+    al_clear_to_color(al_map_rgb(255,0,0));
 
 
-    al_clear_to_color(al_map_rgb(0,128,128));
-    while(al_is_event_queue_empty(events))
-    {
-        al_draw_filled_circle(
-            rand()%WIDTH, rand()%HEIGHT, rand()%64,
-            al_map_rgb(rand()%256, 0, 0));
-        al_flip_display();
-        al_rest(1.0);
-    }
+    al_flip_display();
 
+    // time in sec
+    al_rest(5.0);
+
+    // fermer
     al_destroy_display(display);
+
     return 0;
 }
