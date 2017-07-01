@@ -6,12 +6,12 @@ Le projet etant cross-platform, il est necessaire de construire un environnement
 
 Premierement, clonez le depot sur votre machine.
 
-### Build SFML ( Windows avec code::blocks )
+### Build SFML ( Windows et Linux avec code::blocks )
 1) Allez dans le depot du projet, puis dans les dossiers "Tools" => "CMake-win" => "bin".
-2) Lancez cmake-gui.exe
+2) Lancez cmake-gui.exe ( Linux : cmake-gui )
 3) Dans "Where is the source code", selectionnez le dossier "Projet-42.2/Game/src/SFML".
 4) Dans "Where to build the binaries", selectionnez le dossier "Projet-42.2/Game/src/SFML/build".
-5) Cliquez sur "Configure", selectionnez "CodeBlocks - MinGW Makefiles " (laissez l'option "Use default native compilers" cochée)
+5) Cliquez sur "Configure", selectionnez "CodeBlocks - MinGW Makefiles" ( Linux : "CodeBlocks - Unix Makefiles" )
 6) Verifiez que l'option BUILD_SHARED_LIBS est cochée, et que SFML_USE_STATIC_STD_LIBS soit decochée.
 7) Dans l'option CMAKE_BUILD_TYPE ecrivez "Release"
 8) Cliquez sur "Generate"
@@ -24,3 +24,5 @@ Premierement, clonez le depot sur votre machine.
 14) SFML est maintenant compilée, pour la liée à votre projet codeblocks, suivez ce tuto => https://www.sfml-dev.org/tutorials/2.4/start-cb-fr.php
 /!\ les ".a" se situent dans "Projet-42.2/Game/src/SFML/build/lib/" /!\
 
+
+### Build Boost.FileSystem ( Windows )
