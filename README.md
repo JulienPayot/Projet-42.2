@@ -6,6 +6,12 @@ Le projet etant cross-platform, il est necessaire de construire un environnement
 
 Premierement, clonez le depot sur votre machine.
 
+### Preliminaires Linux
+Installez premierement les paquets suivant : 
+```shell
+sudo apt-get install build-essential cmake git libx11-dev freeglut3-dev libxcb-image0-dev libudev-dev libjpeg8-dev libopenal-dev libsndfile1-dev libfreetype6-dev
+```
+
 ### Build SFML-SISL ( Windows et Linux avec code::blocks )
 1) Allez dans le depot du projet, puis dans les dossiers "Tools" => "CMake-win" ( Linux : "CMake-lin" ) => "bin".
 2) Lancez cmake-gui.exe ( Linux : cmake-gui )
