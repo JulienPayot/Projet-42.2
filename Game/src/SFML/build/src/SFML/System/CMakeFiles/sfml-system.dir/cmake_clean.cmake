@@ -15,10 +15,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj"
   "CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj"
   "CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj"
-  "../../../lib/sfml-system-d.pdb"
-  "../../../lib/sfml-system-d-2.dll"
-  "../../../lib/libsfml-system-d.a"
-  "../../../lib/sfml-system-d-2.dll.manifest"
+  "../../../lib/sfml-system.pdb"
+  "../../../lib/sfml-system-2.dll"
+  "../../../lib/libsfml-system.a"
+  "../../../lib/sfml-system-2.dll.manifest"
 )
 
 # Per-language clean rules from dependency scanning.

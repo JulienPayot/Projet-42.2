@@ -1,0 +1,11 @@
+[TEXTURES]
+# name 		path		  area   smoothed
+bonhomme_s;textures/bonhomme.png;0,0,0,0,1
+bonhomme;textures/bonhomme.png;0,0,50,50,1
+
+[FONTS]
+arial;fonts/arial.ttf;
+
+[SHADERS]
+
+[SOUNDBUFFERS]

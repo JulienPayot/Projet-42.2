@@ -19,10 +19,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj"
   "CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj"
   "CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj"
-  "../../../lib/sfml-window-d.pdb"
-  "../../../lib/sfml-window-d-2.dll"
-  "../../../lib/libsfml-window-d.a"
-  "../../../lib/sfml-window-d-2.dll.manifest"
+  "../../../lib/sfml-window.pdb"
+  "../../../lib/sfml-window-2.dll"
+  "../../../lib/libsfml-window.a"
+  "../../../lib/sfml-window-2.dll.manifest"
 )
 
 # Per-language clean rules from dependency scanning.

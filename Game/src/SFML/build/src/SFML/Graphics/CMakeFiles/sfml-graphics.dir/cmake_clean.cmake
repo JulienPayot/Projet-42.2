@@ -29,10 +29,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.obj"
   "CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj"
   "CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj"
-  "../../../lib/sfml-graphics-d.pdb"
-  "../../../lib/sfml-graphics-d-2.dll"
-  "../../../lib/libsfml-graphics-d.a"
-  "../../../lib/sfml-graphics-d-2.dll.manifest"
+  "../../../lib/sfml-graphics.pdb"
+  "../../../lib/sfml-graphics-2.dll"
+  "../../../lib/libsfml-graphics.a"
+  "../../../lib/sfml-graphics-2.dll.manifest"
 )
 
 # Per-language clean rules from dependency scanning.

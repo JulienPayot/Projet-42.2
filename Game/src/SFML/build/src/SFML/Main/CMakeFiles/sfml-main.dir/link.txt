@@ -1,2 +1,2 @@
-C:\CodeBlocks\MinGW\bin\ar.exe qc ..\..\..\lib\libsfml-main-d.a  CMakeFiles/sfml-main.dir/MainWin32.cpp.obj
-C:\CodeBlocks\MinGW\bin\ranlib.exe ..\..\..\lib\libsfml-main-d.a
+C:\CodeBlocks\MinGW\bin\ar.exe qc ..\..\..\lib\libsfml-main.a  CMakeFiles/sfml-main.dir/MainWin32.cpp.obj
+C:\CodeBlocks\MinGW\bin\ranlib.exe ..\..\..\lib\libsfml-main.a

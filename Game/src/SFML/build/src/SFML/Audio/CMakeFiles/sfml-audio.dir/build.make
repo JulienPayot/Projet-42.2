@@ -582,42 +582,42 @@ sfml__audio_OBJECTS = \
 # External object files for target sfml-audio
 sfml__audio_EXTERNAL_OBJECTS =
 
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make
-lib/sfml-audio-d-2.dll: lib/libsfml-system-d.a
-lib/sfml-audio-d-2.dll: ../extlibs/libs-mingw/x86/libopenal32.a
-lib/sfml-audio-d-2.dll: ../extlibs/libs-mingw/x86/libvorbisenc.a
-lib/sfml-audio-d-2.dll: ../extlibs/libs-mingw/x86/libvorbisfile.a
-lib/sfml-audio-d-2.dll: ../extlibs/libs-mingw/x86/libvorbis.a
-lib/sfml-audio-d-2.dll: ../extlibs/libs-mingw/x86/libogg.a
-lib/sfml-audio-d-2.dll: ../extlibs/libs-mingw/x86/libFLAC.a
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/linklibs.rsp
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/objects1.rsp
-lib/sfml-audio-d-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\projet42.2\Projet-42.2\Game\src\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX shared library ..\..\..\lib\sfml-audio-d-2.dll"
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make
+lib/sfml-audio-2.dll: lib/libsfml-system.a
+lib/sfml-audio-2.dll: ../extlibs/libs-mingw/x86/libopenal32.a
+lib/sfml-audio-2.dll: ../extlibs/libs-mingw/x86/libvorbisenc.a
+lib/sfml-audio-2.dll: ../extlibs/libs-mingw/x86/libvorbisfile.a
+lib/sfml-audio-2.dll: ../extlibs/libs-mingw/x86/libvorbis.a
+lib/sfml-audio-2.dll: ../extlibs/libs-mingw/x86/libogg.a
+lib/sfml-audio-2.dll: ../extlibs/libs-mingw/x86/libFLAC.a
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/linklibs.rsp
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/objects1.rsp
+lib/sfml-audio-2.dll: src/SFML/Audio/CMakeFiles/sfml-audio.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\projet42.2\Projet-42.2\Game\src\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX shared library ..\..\..\lib\sfml-audio-2.dll"
 	cd /d D:\Desktop\projet42.2\Projet-42.2\Game\src\SFML\build\src\SFML\Audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-audio.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/SFML/Audio/CMakeFiles/sfml-audio.dir/build: lib/sfml-audio-d-2.dll
+src/SFML/Audio/CMakeFiles/sfml-audio.dir/build: lib/sfml-audio-2.dll
 
 .PHONY : src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 

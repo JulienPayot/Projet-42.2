@@ -47,8 +47,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../src"
   "../extlibs/headers/stb_image"
-  "../extlibs/headers/jpeg"
   "../extlibs/headers/freetype2"
+  "../extlibs/headers/jpeg"
   )
 
 # Targets to which this target links.

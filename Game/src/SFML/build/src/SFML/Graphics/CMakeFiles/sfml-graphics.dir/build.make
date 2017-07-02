@@ -842,49 +842,49 @@ sfml__graphics_OBJECTS = \
 # External object files for target sfml-graphics
 sfml__graphics_EXTERNAL_OBJECTS =
 
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make
-lib/sfml-graphics-d-2.dll: lib/libsfml-window-d.a
-lib/sfml-graphics-d-2.dll: lib/libsfml-system-d.a
-lib/sfml-graphics-d-2.dll: ../extlibs/libs-mingw/x86/libfreetype.a
-lib/sfml-graphics-d-2.dll: ../extlibs/libs-mingw/x86/libjpeg.a
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/linklibs.rsp
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/objects1.rsp
-lib/sfml-graphics-d-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\projet42.2\Projet-42.2\Game\src\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX shared library ..\..\..\lib\sfml-graphics-d-2.dll"
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make
+lib/sfml-graphics-2.dll: lib/libsfml-window.a
+lib/sfml-graphics-2.dll: lib/libsfml-system.a
+lib/sfml-graphics-2.dll: ../extlibs/libs-mingw/x86/libfreetype.a
+lib/sfml-graphics-2.dll: ../extlibs/libs-mingw/x86/libjpeg.a
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/linklibs.rsp
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/objects1.rsp
+lib/sfml-graphics-2.dll: src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\projet42.2\Projet-42.2\Game\src\SFML\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX shared library ..\..\..\lib\sfml-graphics-2.dll"
 	cd /d D:\Desktop\projet42.2\Projet-42.2\Game\src\SFML\build\src\SFML\Graphics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sfml-graphics.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build: lib/sfml-graphics-d-2.dll
+src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build: lib/sfml-graphics-2.dll
 
 .PHONY : src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
 
