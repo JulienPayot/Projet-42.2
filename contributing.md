@@ -5,19 +5,33 @@ Author : SOTON "Asphox" Dylan
 
 ## conventions 
 -mot clé NULL interdit, remplacez le par nullptr
+
 -cast C-style interdit, utilisez static_cast / const_cast / dynamic_cast / reinterpret_cast
+
 -tableau C-style a eviter, utilisez les conteneurs de la STL
+
 -pas de using namespace excepté pour la STL ( std ), on garde l'operateur de porté partout.
+
 -les "struct" doivent etre utilisées comme en C ( rassemblement de variables ), elles ne doivent donc pas contenir de methodes.
+
 -preferez les pointeurs inteligents aux pointeurs "brut" ( int* )
+
 -on ne commente pas dans un .cpp ! excepté pour une section de code complexe.
+
 -limitez les macros au maximum
+
 -une methode qui ne modifie pas la class doit etre marqué "const" ( void maFonction() const; )
+
 -une methode qui ne modifie pas les parametres doit les recuperer en "const" ( void maFonction( const int param ); )
+
 -preferez le passage par reference ( constante ou non ) plutot qu'un passage par copie pour les types "lourds"
+
     exemple : void maFonction( const std::string& machaine );
+    
 -une methode qui ne fait qu'une operation doit etre "inlinée"
+
     exemple : inline void maFonction(){ un truc; }
+    
 - interdiction d'utiliser l'operateur "?" pour cause d'illisibilité.
 
 
