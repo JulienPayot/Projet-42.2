@@ -37,19 +37,31 @@ Author : SOTON "Asphox" Dylan
 
 
 ## Noms des fichiers
+
 headers : NomDeMonHeader.hpp
+
 source : NomDeMonSource.cpp
+
 template : NomDeMonTemplate.tpp
 
 ## Noms des differents composants
+
 class/Struct/Enum : MaClass
+
 fonction membre public :    maJolieFonction
+
 fonction membre privée :    m_maJolieFonction
+
 attribut public :           monAttribut
+
 attribut privé :            m_monAttribut
+
 template :                  MONTEMPLATE
+
 pointeur :                  type* monPointeur;
+
 reference :                 type& maReference;
+
 macro :                     MAMACRO
 
 ## Commentaires
